@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: #333;
+            padding: 1rem;
+        }
+        nav ul{
+           list-style: none; 
+           padding: 0;
+           margin: 0;
+           display: flex;
+           justify-content: flex-end;
+           align-items: center;
+        }
+        nav li{
+            margin: 0 1rem;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            transition: bacground-color 0.3s ease;
+        }
+        nav a:hover{
+            background-color: #555;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html"></a>Inicio</li>
-            <li><a href="misael.html"></a>Misael</li>
-            <li><a href="yair.html"></a>Yair</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="misael.html">Misael</a></li>
+            <li><a href="yair.html">Yair</a></li>
         </ul>
     </nav>
 </body>
